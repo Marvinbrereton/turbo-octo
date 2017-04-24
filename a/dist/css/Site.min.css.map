@@ -1,0 +1,1 @@
+{"version":3,"sources":["Site.scss"],"names":[],"mappings":"AAGA,KACI,UAAA,KAIJ,GACI,WAAA,OAGJ,GACI,WAAA,OACA,MAAA","file":"Site.min.css","sourcesContent":["$brand-colour: #000;\r\n$text-size: 16px;\r\n\r\nhtml {\r\n    font-size: $text-size;\r\n}\r\n\r\n\r\nh1 {\r\n    text-align: center;\r\n}\r\n\r\nh2 {\r\n    text-align: center;\r\n    color: $brand-colour;\r\n}\r\n"]}

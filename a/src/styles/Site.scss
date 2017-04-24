@@ -1,0 +1,16 @@
+$brand-colour: #000;
+$text-size: 16px;
+
+html {
+    font-size: $text-size;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: $brand-colour;
+}
