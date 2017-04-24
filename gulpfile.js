@@ -82,6 +82,7 @@ gulp.task('build', gulp.series(
 
 function watch() {
     gulp.watch(`${pckg.paths.src.styles}/**/*.scss`, { awaitWriteFinish: true }).on('change', gulp.series('css'));
+    gulp.watch(`${pckg.paths.src.images}/**/*.*`, { awaitWriteFinish: true }).on('change', gulp.series('img'));
     //gulp.watch(`${pckg.paths.src.js}/**/*.js`, { awaitWriteFinish: true }).on('change', gulp.series('js'));
     //gulp.watch(`${pckg.paths.src.images}/**/*.*`, { awaitWriteFinish: true }).on('change', gulp.series('img'));
 }
